@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search> 
+  
+  
+    
+    <entry>
+      <title>测试3</title>
+      <link href="/2024/06/15/%E6%B5%8B%E8%AF%953/"/>
+      <url>/2024/06/15/%E6%B5%8B%E8%AF%953/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>地方和非法收购法国</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 随笔 </category>
+          
+          <category> 随笔 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 随笔 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>测试2</title>
+      <link href="/2024/06/14/%E6%B5%8B%E8%AF%952/"/>
+      <url>/2024/06/14/%E6%B5%8B%E8%AF%952/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>看v，密码姐怕怕浦东哦</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 随笔 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 随笔 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>测试1</title>
+      <link href="/2024/06/14/%E6%B5%8B%E8%AF%951/"/>
+      <url>/2024/06/14/%E6%B5%8B%E8%AF%951/</url>
+      
+        <content type="html"><![CDATA[<p>卢浮宫low我见过</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 随笔 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 随笔 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>还是测试</title>
+      <link href="/2024/06/14/%E8%BF%98%E6%98%AF%E6%B5%8B%E8%AF%95/"/>
+      <url>/2024/06/14/%E8%BF%98%E6%98%AF%E6%B5%8B%E8%AF%95/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>先这样把</p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>测试</title>
+      <link href="/2024/06/13/%E6%B5%8B%E8%AF%95/"/>
+      <url>/2024/06/13/%E6%B5%8B%E8%AF%95/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>现在可以了吗  可以了吗</p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>HomePage上配置Halo的信息展示</title>
+      <link href="/2024/02/04/HomePage%E4%B8%8A%E9%85%8D%E7%BD%AEHalo%E7%9A%84%E4%BF%A1%E6%81%AF%E5%B1%95%E7%A4%BA/"/>
+      <url>/2024/02/04/HomePage%E4%B8%8A%E9%85%8D%E7%BD%AEHalo%E7%9A%84%E4%BF%A1%E6%81%AF%E5%B1%95%E7%A4%BA/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>想要在HomePage上配置Halo的信息展示，找到了一个免签接口可以提供相关数据。本文将详细讲解如何在HomePage中进行配置并展示Halo博客系统的相关信息。<br>配置<br>打开HomePage的 <strong>service.yaml</strong> 文件，填写以下内容并修改其中的参数数据为自己的内容</p><ul><li>新·都在:<br>icon: &#x2F;images&#x2F;logo-doiw.png<br>description: 只想专心玩NAS<br>href: “<a href="https://blog.xindu.site/">https://blog.xindu.site/</a>“<br>siteMonitor: <a href="https://blog.xindu.site/">https://blog.xindu.site/</a><br>ping: <a href="https://blog.xindu.site/">https://blog.xindu.site</a><br>server: halo2<br>container: halo2<br>showStats: false<br>widget:<br>type: customapi<br>url: <a href="https://blog.xindu.site/apis/api.halo.run/v1alpha1/stats/-">https://blog.xindu.site/apis/api.halo.run/v1alpha1/stats/-</a><br>method: GET<br>mappings:</li><li>field: category<br>label: 分类数</li><li>field: post<br>label: 文章数</li><li>field: comment<br>label: 评论数</li><li>field: visit<br>label: 访问量</li></ul><p>#- field: upvote<br>#label: 点赞数</p><p>参数说明</p><ul><li>新 · 都在：自定义名称</li><li>icon：可选参数。图标，可以使用在线地址，本地地址需要重启HomePage容器</li><li>description：可选参数。自定义描述</li><li>href：自定义点击跳转地址</li><li>siteMonitor：可选参数。自定义监控地址，可检测URL连接性</li><li>ping：可选参数。检测自定义地址延迟</li><li>server：可选参数。服务名，需要配合 <strong><code>docker.yaml</code></strong> 配置</li><li>container：可选参数。容器名，需要配合 <strong><code>docker.yaml</code></strong> 配置</li><li>showStats：可选参数。是否默认展示容器信息，需要配置 <strong><code>container</code></strong> 参数</li><li>widget：展示片<ul><li>type：类型，这里写固定值：customapi</li><li>url：请求接口，这里将 <strong><code>https://blog.xindu.site</code></strong> 替换成你自己的站点地址即可</li><li>method：请求方式，这里写固定值：GET</li><li>mappings：数据对象，更多配置方式可以参考文档 # Custom API<ul><li>field：字段名，根据接口返回报文填写</li><li>label：自定义名字，用于描述字段</li></ul></li></ul></li></ul><p>效果展示</p><img src="http://192.168.2.150:8040/i/2024/06/07/6663286c7b116.webp" alt="" />]]></content>
+      
+      
+      <categories>
+          
+          <category> 随笔 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 随笔 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>这是技术文章模板</title>
+      <link href="/2024/01/14/%E6%8A%80%E6%9C%AF%E6%96%87%E7%AB%A0%E6%A8%A1%E6%9D%BF/"/>
+      <url>/2024/01/14/%E6%8A%80%E6%9C%AF%E6%96%87%E7%AB%A0%E6%A8%A1%E6%9D%BF/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><div class="note info">前言，技术文章前言技术文章前言技术文章前言技术文章前言技术文章前言技术文章前言技术文章前言技术文章前言技术文章前言技术文章前言技术文章前言技术文章前言技术文章前言。</div><h3 id="标题"><a href="#标题" class="headerlink" title="标题"></a>标题</h3><ul><li>项目1</li><li>项目2</li><li>项目3</li></ul><p>正文正文正文正文正文正文正文正文正文正文正文正文正文正文正文正文正文正文正文正文正文正文正文正文正文正文正文正文正文正文正文正文正文正文正文正文正文正文正文正文正文正文正文正文正文正文正文正文正文正文正文正文正文正文正文正文正文正文正文正文正文正文正文正文正文正文正文正文正文正文正文正文</p><p><img src="/%E5%9B%BE%E7%89%87url" alt="图片介绍"></p><p><code>正文一些需要高亮色的文字</code></p><p><a href="链接地址" class="LinkCard" target="_blank">引入链接</a></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 技术 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 技术 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>这是随笔文章模板</title>
+      <link href="/2024/01/04/%E9%9A%8F%E7%AC%94%E6%96%87%E7%AB%A0%E6%A8%A1%E6%9D%BF/"/>
+      <url>/2024/01/04/%E9%9A%8F%E7%AC%94%E6%96%87%E7%AB%A0%E6%A8%A1%E6%9D%BF/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h4 id="这是博主的随笔板块，后续会更新文章，目前弄好了模板格式"><a href="#这是博主的随笔板块，后续会更新文章，目前弄好了模板格式" class="headerlink" title="这是博主的随笔板块，后续会更新文章，目前弄好了模板格式~"></a>这是博主的随笔板块，后续会更新文章，目前弄好了模板格式~</h4><div class="ipage">    <div class="ititle">节选自《你若安好便是晴天》- 前言</div>  <div class="izhengwen">  <p>几场梅雨，几卷荷风，江南已是烟水迷离。小院里湿润的青苔在雨中纯净生长。这个季节，许多人都在打听关于莲荷的消息，以及茉莉在黄昏浮动的神秘幽香。不知多少人会记得有个女子，曾经走过人间四月天，又与莲开的夏季有过相濡以沫的约定。</p>  <p>一个人，一本书，一杯茶，一帘梦。有时候，寂寞是这样叫人心动，也只有此刻，世事才会如此波澜不惊。凉风吹起书页，这烟雨让尘封在书卷里的词章和故事弥漫着潮湿的气息。独倚幽窗，看转角处的青石小巷，一柄久违的油纸伞，遮住了低过屋檐的光阴。</p>  <p>时光微凉，那一场远去的往事被春水浸泡，秋风吹拂，早已洗去铅华，清绝明净。以为历经人生匆匆聚散，尝过尘世种种烟火，应该承担岁月带给我们的沧桑。可流年分明安然无恙，而山石草木是这样毫发无伤。只是曾经许过地老天荒的城，在细雨中越发地清瘦单薄。</p>  <p>青梅煎好的茶水，还是当年的味道；而我们等候的人，不会再来。后来才知道，那一袭素色白衣的女子已化身为燕，去寻觅水乡旧巢。她走过的地方，有一树一树的花开，她呢喃的梁间，还留着余温犹存的梦。有人说，她是个冰洁的女子，所以无论人世如何变迁，她都有着美丽的容颜。有人说，她是个理智的女子，不管面临怎样的诱惑，最后都可以全身而退。</p>  <p>她叫林徽因，出生于杭州，是许多人梦中期待的白莲。她在雨雾之都伦敦，发生过一场空前绝后的康桥之恋。她爱过三个男子，爱得清醒，也爱得平静。徐志摩为她徜徉在康桥，深情地等待一场旧梦可以归来。梁思成与她携手走过千山万水，为完成使命而相约白头。金岳霖为她终身不娶，痴心不改地守候一世。可她懂得人生飘忽不定，要学会随遇而安。</p>  </div></div>]]></content>
+      
+      
+      <categories>
+          
+          <category> 随笔 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 随笔 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+  
+  
+</search>

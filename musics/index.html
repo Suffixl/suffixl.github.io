@@ -1,0 +1,926 @@
+<!DOCTYPE HTML>
+<html lang="zh-CN">
+
+
+<head>
+    <meta charset="utf-8">
+    <meta name="keywords" content="musics, 这里是网站关键词">
+    <meta name="description" content="这里是网站描述">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <meta name="renderer" content="webkit|ie-stand|ie-comp">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+
+
+    <title>musics | 淡若清风</title>
+    <link rel="icon" type="image/png" href="/favicon.png">
+
+    <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.css">
+    <link rel="stylesheet" type="text/css" href="/libs/materialize/materialize.min.css">
+    <link rel="stylesheet" type="text/css" href="/libs/aos/aos.css">
+    <link rel="stylesheet" type="text/css" href="/libs/animate/animate.min.css">
+    <link rel="stylesheet" type="text/css" href="/libs/lightGallery/css/lightgallery.min.css">
+    <link rel="stylesheet" type="text/css" href="/css/matery.css">
+    <link rel="stylesheet" type="text/css" href="/css/my.css">
+
+    <script src="/libs/jquery/jquery.min.js"></script>
+
+<meta name="generator" content="Hexo 5.4.2"><link rel="alternate" href="/atom.xml" title="淡若清风" type="application/atom+xml">
+<link rel="stylesheet" href="/css/prism-tomorrow.css" type="text/css">
+<link rel="stylesheet" href="/css/prism-line-numbers.css" type="text/css"></head>
+
+
+
+
+<body>
+    <header class="navbar-fixed">
+    <nav id="headNav" class="bg-color nav-transparent">
+        <div id="navContainer" class="nav-wrapper container">
+            <div class="brand-logo">
+                <a href="/" class="waves-effect waves-light">
+                    
+                    <img src="/medias/logo.png" class="logo-img" alt="LOGO">
+                    
+                    <span class="logo-span">淡若清风</span>
+                </a>
+            </div>
+            
+
+<a href="#" data-target="mobile-nav" class="sidenav-trigger button-collapse"><i class="fas fa-bars"></i></a>
+<ul class="right nav-menu">
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/" class="waves-effect waves-light">
+      
+      <i class="fas fa-home" style="zoom: 0.6;"></i>
+      
+      <span>首页</span>
+    </a>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="" class="waves-effect waves-light">
+
+      
+      <i class="fas fa-archive" style="zoom: 0.6;"></i>
+      
+      <span>文章</span>
+      <i class="fas fa-chevron-down" aria-hidden="true" style="zoom: 0.6;"></i>
+    </a>
+    <ul class="sub-nav menus_item_child ">
+      
+      <li>
+        <a href="/archives">
+          
+          <i class="fas fa-archive" style="margin-top: -20px; zoom: 0.6;"></i>
+          
+          <span>列表</span>
+        </a>
+      </li>
+      
+      <li>
+        <a href="/categories">
+          
+          <i class="fas fa-bookmark" style="margin-top: -20px; zoom: 0.6;"></i>
+          
+          <span>分类</span>
+        </a>
+      </li>
+      
+      <li>
+        <a href="/tags">
+          
+          <i class="fas fa-tags" style="margin-top: -20px; zoom: 0.6;"></i>
+          
+          <span>标签</span>
+        </a>
+      </li>
+      
+    </ul>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/gallery" class="waves-effect waves-light">
+      
+      <i class="fas fa-images" style="zoom: 0.6;"></i>
+      
+      <span>相册</span>
+    </a>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/musics" class="waves-effect waves-light">
+      
+      <i class="fas fa-music" style="zoom: 0.6;"></i>
+      
+      <span>音乐</span>
+    </a>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/about" class="waves-effect waves-light">
+      
+      <i class="fas fa-user-circle" style="zoom: 0.6;"></i>
+      
+      <span>关于</span>
+    </a>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/contact" class="waves-effect waves-light">
+      
+      <i class="fas fa-comments" style="zoom: 0.6;"></i>
+      
+      <span>留言板</span>
+    </a>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/friends" class="waves-effect waves-light">
+      
+      <i class="fas fa-address-book" style="zoom: 0.6;"></i>
+      
+      <span>友情链接</span>
+    </a>
+    
+  </li>
+  
+  <li>
+    <a href="#searchModal" class="modal-trigger waves-effect waves-light">
+      <i id="searchIcon" class="fas fa-search" title="搜索" style="zoom: 0.85;"></i>
+    </a>
+  </li>
+</ul>
+
+
+<div id="mobile-nav" class="side-nav sidenav">
+
+    <div class="mobile-head bg-color">
+        
+        <img src="/medias/logo.png" class="logo-img circle responsive-img">
+        
+        <div class="logo-name">淡若清风</div>
+        <div class="logo-desc">
+            
+            这里是网站描述
+            
+        </div>
+    </div>
+
+    
+
+    <ul class="menu-list mobile-menu-list">
+        
+        <li class="m-nav-item">
+	  
+		<a href="/" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-home"></i>
+			
+			首页
+		</a>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="javascript:;">
+			
+				<i class="fa-fw fas fa-archive"></i>
+			
+			文章
+			<span class="m-icon"><i class="fas fa-chevron-right"></i></span>
+		</a>
+            <ul  style="background:  ;" >
+              
+                <li>
+
+                  <a href="/archives " style="margin-left:75px">
+				  
+				   <i class="fa fas fa-archive" style="position: absolute;left:50px" ></i>
+			      
+		          <span>列表</span>
+                  </a>
+                </li>
+              
+                <li>
+
+                  <a href="/categories " style="margin-left:75px">
+				  
+				   <i class="fa fas fa-bookmark" style="position: absolute;left:50px" ></i>
+			      
+		          <span>分类</span>
+                  </a>
+                </li>
+              
+                <li>
+
+                  <a href="/tags " style="margin-left:75px">
+				  
+				   <i class="fa fas fa-tags" style="position: absolute;left:50px" ></i>
+			      
+		          <span>标签</span>
+                  </a>
+                </li>
+              
+            </ul>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="/gallery" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-images"></i>
+			
+			相册
+		</a>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="/musics" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-music"></i>
+			
+			音乐
+		</a>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="/about" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-user-circle"></i>
+			
+			关于
+		</a>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="/contact" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-comments"></i>
+			
+			留言板
+		</a>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="/friends" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-address-book"></i>
+			
+			友情链接
+		</a>
+          
+        </li>
+        
+        
+    </ul>
+</div>
+
+
+        </div>
+
+        
+    </nav>
+
+</header>
+
+    <div class="bg-cover pd-header about-cover">
+    <div class="container">
+        <div class="row">
+    <div class="col s10 offset-s1 m8 offset-m2 l8 offset-l2">
+        <div class="brand">
+            <div class="title center-align">
+                
+                    
+                
+            </div>
+
+            <div class="description center-align">
+                
+                <span id="subtitle"></span>
+                <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
+                <script>
+                    var typed = new Typed("#subtitle", {
+                        strings: ['从来没有真正的绝境, 只有心灵的迷途','Never really desperate, only the lost of the soul'],
+                        startDelay: 300,
+                        typeSpeed: 100,
+                        loop: true,
+                        backSpeed: 50,
+                        showCursor: true
+                    });
+                </script>
+                
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<script>
+    // 每天切换 banner 图.  Switch banner image every day.
+    var bannerUrl = "/medias/banner/" + new Date().getDay() + '.jpg';
+    $('.bg-cover').css('background-image', 'url(' + bannerUrl + ')');
+</script>
+
+
+    </div>
+</div>
+<style>
+    .musis > div {
+        margin-bottom: 60px;
+    }
+    .aplayer {
+        border-radius: 8px!important;
+    }
+    .comment-scroll {
+        bottom: 93px;
+    }
+    .v[data-class=v] .vcards {
+        display: none;
+    }
+    .musis div p {
+        font-family: 'Architects Daughter', cursive;
+        font-size: 18px;
+    }
+    
+    .musictitle {
+        font-family: 'Architects Daughter', cursive;
+        font-size: 20px;
+        margin-bottom: 0px!important;
+    }
+    body.dark .musictitle {
+        color: rgba(255, 255, 255, 0.6);
+    }
+    .musiclink {
+        margin-bottom: 0px!important;
+    }
+    .musiclink a {
+        margin-bottom: 15px;
+        display: inline-block;
+        color: rgba(0,0,0,0.87);
+    }
+    /* 修改小屏幕下logo文字样式. */
+    @media only screen and (max-width: 600px) {
+        .about-cover {
+            height: 64vh;
+        }   
+    }
+</style>
+<style>
+    @media only screen and (max-width: 800px) {
+        .swbk {
+            padding: 26px 2px!important;
+            margin: 14px 0px!important;
+        }
+    }
+    #switchspring {
+        bottom: 178px !important;
+    }
+    @media only screen and (max-width: 601px) {
+        #switchspring {
+            bottom: 235px !important;
+        }
+    }
+    .swbk {
+        position: relative;
+        padding: 26px 20px;
+        font-style: italic;
+        margin: 10px 0px;
+        border-radius: 8px;
+        -webkit-box-shadow: 0 14px 38px rgba(0,0,0,.08), 0 3px 8px rgba(0,0,0,.06);
+        box-shadow: 0 14px 38px rgba(0,0,0,.08), 0 3px 8px rgba(0,0,0,.06);
+        -webkit-transition: all .3s ease 0s,-webkit-transform .6s cubic-bezier(.6,.2,.1,1) 0s;
+        transition: all .3s ease 0s,-webkit-transform .6s cubic-bezier(.6,.2,.1,1) 0s;
+        transition: all .3s ease 0s,transform .6s cubic-bezier(.6,.2,.1,1) 0s;
+        transition: all .3s ease 0s,transform .6s cubic-bezier(.6,.2,.1,1) 0s,-webkit-transform .6s cubic-bezier(.6,.2,.1,1) 0s;
+    }
+    .swbk:hover {
+        -webkit-transform: translateY(-4px);
+        transform: translateY(-4px);
+        -webkit-box-shadow: 0 14px 38px rgba(0,0,0,.14), 0 3px 8px rgba(0,0,0,.12);
+        box-shadow: 0 14px 38px rgba(0,0,0,.14), 0 3px 8px rgba(0,0,0,.12);
+    }
+    .swbk:before {
+        content: " “ ";
+        top: 56px;
+        /* left: -14px; */
+    }
+    .swbk:after {
+        content: " ” ";
+        bottom: 8px;
+        right: 5px;
+    }
+    .swbk:after, .swbk:before {
+        position: absolute;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 42px;
+        text-decoration: inherit;
+    }
+    .ziwojieshao .swbk:after, .ziwojieshao .swbk:before {
+        display: none;
+    }
+    body.dark .swbk:after, body.dark .swbk:before {
+        color: #d2c9c9;
+    }
+    .swbk p {
+        font-size: 19px!important;
+        line-height: 1.3rem;
+        text-indent: 2rem;
+        font-style: italic;
+        font-family: 'Architects Daughter', cursive!important;
+    }
+    .swbk .label {
+        display: inline-block;
+        position: relative;
+        margin-bottom: 10px;
+        padding: 0 14px 0 32px;
+        height: 32px;
+        line-height: 32px;
+        border-radius: 0 3px 3px 0;
+        background-color: currentColor;
+    }
+    .swbk .label span {
+        color: #fff;
+    }
+    .swbk .label:after {
+        content: "";
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 0;
+        height: 0;
+        background-color: transparent;
+        border-style: solid;
+        border-width: 0 16px 16px 0;
+        border-color: transparent;
+        border-right-color: currentColor;
+        -webkit-filter: brightness(120%);
+        filter: brightness(120%);
+    }
+    @media screen and (min-width: 768px) {
+        .swbk .label {
+            left: -37px;
+        }
+    }
+    @media screen and (max-width: 767px) {
+        .swbk .label {
+            left: -18px;
+        }
+        .swbk p {
+            line-height: 2.02rem;
+            padding: 2px 8px;
+        }
+    }
+</style>
+
+<main class="content">
+    <div class="container">
+        <div class="card musis">
+        
+        <div class="musictitle center-align">
+            这里是博主心水的歌单
+        </div>
+        <hr>
+            
+    <!-- 添加宝藏歌曲模块 -->
+      <div class="baozang musiclist">
+        <p>🔱 <i style="border-bottom: 1px solid #ad7a86;">宝藏</i> 歌单</p>
+        <div class="swbk">
+          <div class="label" style="color: rgb(245, 150, 170);">
+            <span>读达尔文</span></div>
+          <p>有过竞争，有过牺牲，被爱筛选过程，学会认真，学会忠诚，适者才能生存，懂得永恒，得要我们，进化成更好的人</p>
+        </div>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css">
+        <script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js"></script>
+        <!-- require MetingJS -->
+        <script src="https://cdn.jsdelivr.net/npm/meting@2/dist/Meting.min.js"></script>
+        <meting-js style="margin-top: 1.5rem;width: auto;height: auto;" server="netease" type="playlist" id="9690444186"
+          order="list" theme="#ad7a86" loop="all" storageName="aplayer-setting" hideLrc="false">
+        </meting-js>
+        <style>
+          .aplayer {
+            margin: 1.5rem 0;
+          }
+
+          ol li:before {
+            display: none;
+          }
+
+          .card {
+            padding: 24px;
+          }
+        </style>
+      </div>
+
+            <!-- 添加网易云我喜欢的歌曲模块 -->
+            <div class="wyya">
+                <p>☁<i style="border-bottom: 1px solid #ad7a86;">网易云音乐</i>歌单</p>
+                <div class="swbk">
+                    <div class="label" style="color: rgb(178, 143, 206);">
+                        <span>今天，你网抑云了吗？</span></div>
+                    <p>大家都说我的性子很慢，其实我也可以很快，比如，后面有狗追我，或者，你在前面等我 --《理想三旬》</p>
+                </div>   
+                <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css">
+                <script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js"></script>
+                <!-- require MetingJS -->
+                <script src="https://cdn.jsdelivr.net/npm/meting@2/dist/Meting.min.js"></script>
+                <meting-js style="margin-top: 1.5rem;width: auto;height: auto;"
+                    server="netease"
+                    type="playlist"
+                    id="9671964220"
+                    order= "random"
+                    theme="#ad7a86"
+                    loop="all"
+                    autoplay="false"
+                    storageName="aplayer-setting"
+                    hideLrc= "false"
+                    >
+                </meting-js>
+                <style>
+                        .aplayer{
+                            margin: 1.5rem 0;
+                        }
+                        ol li:before {
+                            display: none;
+                        }
+                        
+                </style>
+            </div>
+
+            <!-- 添加qq音乐我喜欢的歌曲模块 --> 
+            <div class="baozang">
+              <p>🐧<i style="border-bottom: 1px solid #ad7a86;">QQ音乐</i>2024年度歌单top10</p>
+              <div class="swbk"             
+                  <div class="label" style="color: rgb(188, 159, 119);">     
+                      <span>qq音乐</span></div>
+                  <p>喜欢就去追吧，毕竟那不是巧合，是牛顿说的万有引力啊 --《万有引力》。和平时一样的清晨，有的人留在昨天了。</p>
+              </div>
+              <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css">
+              <script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js"></script>
+              <!-- require MetingJS -->
+              <script src="https://cdn.jsdelivr.net/npm/meting@2/dist/Meting.min.js"></script>
+              <meting-js style="margin-top: 1.5rem;width: auto;height: auto;"
+                        server="netease"
+                        type="playlist"
+                        id="8293804365"
+                        order= "list"
+                        theme="#ad7a86"
+                        loop="all"
+                        autoplay="false"
+                        storageName="aplayer-setting"
+                        hideLrc= "false"                      
+                        >
+              </meting-js>
+              <style>
+                  .aplayer{
+                      margin: 1.5rem 0;
+                  }
+                  ol li:before {
+                      display: none;
+                  }
+                  .card {
+                      padding: 24px;
+                  }
+              </style>
+            </div>
+
+     <!-- 音乐链接 -->
+      <div class="swbk">
+        <div class="label" style="color: rgb(134, 193, 102);">
+          <span>
+            站点链接&nbsp;
+            <a style="color: #333;" href="http://music.163.com/playlist/169359747/134390031/?userid=134390031"
+              target="_blank">
+              ☁ <i style="border-bottom: 1px solid #ad7a86;">网易云</i>
+            </a>
+            &nbsp;
+            <a style="color: #333;" href="https://y.qq.com/n/yqq/playlist/2155279099.html" target="_blank">
+              🐧 <i style="border-bottom: 1px solid #ad7a86;">QQ音乐</i>
+            </a>
+          </span>
+        </div>
+        <p>
+          其实真正的送别没有长亭古道，没有劝君更尽一杯酒，就是在一个和平时一样的清晨，有的人留在昨天了
+        </p>
+      </div>
+
+        </div>     
+    </div>
+</main>
+
+
+
+
+    <footer class="page-footer bg-color">
+    
+        <link rel="stylesheet" href="/libs/aplayer/APlayer.min.css">
+<style>
+    .aplayer .aplayer-lrc p {
+        
+        display: none;
+        
+        font-size: 12px;
+        font-weight: 700;
+        line-height: 16px !important;
+    }
+
+    .aplayer .aplayer-lrc p.aplayer-lrc-current {
+        
+        display: none;
+        
+        font-size: 15px;
+        color: #42b983;
+    }
+
+    
+    .aplayer.aplayer-fixed.aplayer-narrow .aplayer-body {
+        left: -66px !important;
+    }
+
+    .aplayer.aplayer-fixed.aplayer-narrow .aplayer-body:hover {
+        left: 0px !important;
+    }
+
+    
+</style>
+<div class="">
+    
+    <div class="row">
+        <meting-js class="col l8 offset-l2 m10 offset-m1 s12"
+                   server="netease"
+                   type="playlist"
+                   id="503838841"
+                   fixed='true'
+                   autoplay='false'
+                   theme='#42b983'
+                   loop='all'
+                   order='random'
+                   preload='auto'
+                   volume='0.7'
+                   list-folded='true'
+        >
+        </meting-js>
+    </div>
+</div>
+
+<script src="/libs/aplayer/APlayer.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/meting@2/dist/Meting.min.js"></script>
+
+    
+    <div class="container row center-align" style="margin-bottom: 0px !important;">
+        <div class="col s12 m8 l8 copy-right">
+            Copyright&nbsp;&copy;
+            
+                <span id="year">2024</span>
+            
+            <span id="year">2024</span>
+            <a href="/about" target="_blank">淡若清风</a>
+            |&nbsp;Powered by&nbsp;<a href="https://hexo.io/" target="_blank">Hexo</a>
+            |&nbsp;Theme&nbsp;<a href="https://github.com/blinkfox/hexo-theme-matery" target="_blank">Matery</a>
+            <br>
+            
+            
+            
+            
+            
+            
+            <span id="busuanzi_container_site_pv">
+                |&nbsp;<i class="far fa-eye"></i>&nbsp;总访问量:&nbsp;<span id="busuanzi_value_site_pv"
+                    class="white-color"></span>&nbsp;次
+            </span>
+            
+            
+            <span id="busuanzi_container_site_uv">
+                |&nbsp;<i class="fas fa-users"></i>&nbsp;总访问人数:&nbsp;<span id="busuanzi_value_site_uv"
+                    class="white-color"></span>&nbsp;人
+            </span>
+            
+            <br>
+            
+            <br>
+            
+        </div>
+        <div class="col s12 m4 l4 social-link social-statis">
+
+
+    <a href="mailto:1@qq.com" class="tooltipped" target="_blank" data-tooltip="邮件联系我" data-position="top" data-delay="50">
+        <i class="fas fa-envelope-open"></i>
+    </a>
+
+
+
+
+
+
+
+    <a href="tencent://AddContact/?fromId=50&fromSubId=1&subcmd=all&uin=187" class="tooltipped" target="_blank" data-tooltip="QQ联系我: 187" data-position="top" data-delay="50">
+        <i class="fab fa-qq"></i>
+    </a>
+
+
+
+
+
+
+
+    <a href="/atom.xml" class="tooltipped" target="_blank" data-tooltip="RSS 订阅" data-position="top" data-delay="50">
+        <i class="fas fa-rss"></i>
+    </a>
+
+</div>
+    </div>
+</footer>
+
+<div class="progress-bar"></div>
+
+
+    <!-- 搜索遮罩框 -->
+<div id="searchModal" class="modal">
+    <div class="modal-content">
+        <div class="search-header">
+            <span class="title"><i class="fas fa-search"></i>&nbsp;&nbsp;搜索</span>
+            <input type="search" id="searchInput" name="s" placeholder="请输入搜索的关键字"
+                   class="search-input">
+        </div>
+        <div id="searchResult"></div>
+    </div>
+</div>
+
+<script type="text/javascript">
+$(function () {
+    var searchFunc = function (path, search_id, content_id) {
+        'use strict';
+        $.ajax({
+            url: path,
+            dataType: "xml",
+            success: function (xmlResponse) {
+                // get the contents from search data
+                var datas = $("entry", xmlResponse).map(function () {
+                    return {
+                        title: $("title", this).text(),
+                        content: $("content", this).text(),
+                        url: $("url", this).text()
+                    };
+                }).get();
+                var $input = document.getElementById(search_id);
+                var $resultContent = document.getElementById(content_id);
+                $input.addEventListener('input', function () {
+                    var str = '<ul class=\"search-result-list\">';
+                    var keywords = this.value.trim().toLowerCase().split(/[\s\-]+/);
+                    $resultContent.innerHTML = "";
+                    if (this.value.trim().length <= 0) {
+                        return;
+                    }
+                    // perform local searching
+                    datas.forEach(function (data) {
+                        var isMatch = true;
+                        var data_title = data.title.trim().toLowerCase();
+                        var data_content = data.content.trim().replace(/<[^>]+>/g, "").toLowerCase();
+                        var data_url = data.url;
+                        data_url = data_url.indexOf('/') === 0 ? data.url : '/' + data_url;
+                        var index_title = -1;
+                        var index_content = -1;
+                        var first_occur = -1;
+                        // only match artiles with not empty titles and contents
+                        if (data_title !== '' && data_content !== '') {
+                            keywords.forEach(function (keyword, i) {
+                                index_title = data_title.indexOf(keyword);
+                                index_content = data_content.indexOf(keyword);
+                                if (index_title < 0 && index_content < 0) {
+                                    isMatch = false;
+                                } else {
+                                    if (index_content < 0) {
+                                        index_content = 0;
+                                    }
+                                    if (i === 0) {
+                                        first_occur = index_content;
+                                    }
+                                }
+                            });
+                        }
+                        // show search results
+                        if (isMatch) {
+                            str += "<li><a href='" + data_url + "' class='search-result-title'>" + data_title + "</a>";
+                            var content = data.content.trim().replace(/<[^>]+>/g, "");
+                            if (first_occur >= 0) {
+                                // cut out 100 characters
+                                var start = first_occur - 20;
+                                var end = first_occur + 80;
+                                if (start < 0) {
+                                    start = 0;
+                                }
+                                if (start === 0) {
+                                    end = 100;
+                                }
+                                if (end > content.length) {
+                                    end = content.length;
+                                }
+                                var match_content = content.substr(start, end);
+                                // highlight all keywords
+                                keywords.forEach(function (keyword) {
+                                    var regS = new RegExp(keyword, "gi");
+                                    match_content = match_content.replace(regS, "<em class=\"search-keyword\">" + keyword + "</em>");
+                                });
+
+                                str += "<p class=\"search-result\">" + match_content + "...</p>"
+                            }
+                            str += "</li>";
+                        }
+                    });
+                    str += "</ul>";
+                    $resultContent.innerHTML = str;
+                });
+            }
+        });
+    };
+
+    searchFunc('/search.xml', 'searchInput', 'searchResult');
+});
+</script>
+
+    <!-- 回到顶部按钮 -->
+<div id="backTop" class="top-scroll">
+    <a class="btn-floating btn-large waves-effect waves-light" href="#!">
+        <i class="fas fa-arrow-up"></i>
+    </a>
+</div>
+
+
+    <script src="/libs/materialize/materialize.min.js"></script>
+    <script src="/libs/masonry/masonry.pkgd.min.js"></script>
+    <script src="/libs/aos/aos.js"></script>
+    <script src="/libs/scrollprogress/scrollProgress.min.js"></script>
+    <script src="/libs/lightGallery/js/lightgallery-all.min.js"></script>
+    <script src="/js/matery.js"></script>
+
+    <!-- Baidu Analytics -->
+
+    <!-- Baidu Push -->
+
+<script>
+    (function () {
+        var bp = document.createElement('script');
+        var curProtocol = window.location.protocol.split(':')[0];
+        if (curProtocol === 'https') {
+            bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
+        } else {
+            bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+        }
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(bp, s);
+    })();
+</script>
+
+    
+    <script src="/libs/others/clicklove.js" async="async"></script>
+    
+    
+    <script async src="/libs/others/busuanzi.pure.mini.js"></script>
+    
+
+    
+
+    
+
+	
+    
+
+    
+
+    
+
+    
+    <script src="/libs/instantpage/instantpage.js" type="module"></script>
+    
+
+</body>
+
+</html>
